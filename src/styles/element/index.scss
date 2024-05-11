@@ -1,0 +1,25 @@
+// 定制主题颜色
+@forward '../../../node_modules/element-plus/theme-chalk/src/common/var' with (
+  $colors: (
+    'primary': (
+      // 主色
+      'base': #ec66d2,
+    ),
+    'success': (
+      // 成功色
+      'base': #cb8ac9,
+    ),
+    'warning': (
+      // 警告色
+      'base': #ffb302,
+    ),
+    'danger': (
+      // 危险色
+      'base': #e26237,
+    ),
+    'error': (
+      // 错误色
+      'base': #cf4444,
+    ),
+  )
+);
