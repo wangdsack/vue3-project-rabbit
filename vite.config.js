@@ -12,7 +12,7 @@ import { ElementPlusResolver } from 'unplugin-vue-components/resolvers'
 export default defineConfig({
   plugins: [
     vue(),
-    // 配置element-ui-plus
+    // 配置element-plus
     AutoImport({
       resolvers: [ElementPlusResolver()]
     }),
@@ -32,6 +32,7 @@ export default defineConfig({
         // 自动导入定制化样式文件（index.scss）进行样式覆盖
         additionalData: `
           @use "@/styles/element/index.scss" as *;
+          @use "@/styles/var.scss" as *;
         `,
       }
     }

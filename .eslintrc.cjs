@@ -10,5 +10,9 @@ module.exports = {
   ],
   parserOptions: {
     ecmaVersion: 'latest'
+  },
+  rules:{
+    // 去除强制要求组件命名提示报错
+    'vue/multi-word-component-names':0,
   }
 }
