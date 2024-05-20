@@ -1,4 +1,6 @@
 <template>
+  <div style="height: 700px"></div>
+
   <footer class="app_footer">
     <!-- 联系我们 -->
     <div class="contact">
